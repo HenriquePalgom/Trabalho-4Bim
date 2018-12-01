@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="icon" href="imgs/favicon.ico" type="image/x-icon">
+
+    <title>Invitational</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300" rel="stylesheet">
+  </head>
+
+  <body style="font-family: 'Oswald', sans-serif; overflow-x: hidden; background-image: url(imgs/cadastro.jpg); background-repeat: no-repeat; background-size: cover">
+    <!--Navbar -->
+    <nav style="height: 48px; background-color: #333333" class="navbar navbar-expand-lg navbar-black">
+      <a href="index.html"><img style="width: 100px; height: auto" src="imgs/ubilogo.png"></a>
+      <div class="container" style="margin-right: 0px">
+        <a href="login.html" style=""><i class="far fa-user" style="color: white; margin-left: 1045px"></i></a>
+        <a href="login.html" style="color: white; font-family: Arial Narrow, sans-serif;">LOGIN</a>   
+      </div>
+    </nav>
+
+    <nav style="height: 48px; background-color: black" class="navbar navbar-expand-lg navbar-black" style="border-left: 30px">
+      <a href="index.html"><img style="width: 160px; height: auto" src="imgs/r6logo.png" ></a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 35px">
+        <ul class="navbar-nav mr-auto" >
+          <li class="nav-item active">
+            <a class="nav-link" href="noticias.html">NOTÍCIAS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="proleague.html" style="margin-left: 10px">E-SPORTS</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" style="margin-left: 10px" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              AGENTE
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="login.html" style="">MEU PERFIL</a>
+            </div>
+          </li>
+        </ul>
+        <a href="https://rainbow6.ubisoft.com/siege/pt-br/game-info/roadmap.aspx#year3pass"><button class="btn btn-outline my-2 my-sm-0" type="submit" style="background-color: #00BFFF; font-size: 18px">Passe do Ano 3</button></a>
+      </div>
+    </nav>
+    <!-- Fim Navbar --> 
+
+    <div class="container bg-light py-5 px-5 my-5" style="width: 900px; border-radius: 10px;">
+        <div class="text-center">
+          <h1>Cadastro</h1>
+          Ja tenho uma conta neste site. <a href="login.html">Clique aqui!</a>
+        </div>
+
+        <form>
+          <h3 class="py-3">Seu Cadastro</h3>
+
+          <div class="form-row">
+            <div class="col">
+              <label>Nome</label>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    <i class="fas fa-user"></i>
+                  </span>
+                </div>
+                <input type="text" class="form-control" placeholder="Nome">
+              </div>
+                <div class="invalid-feedback">
+                  Coloque um Nome Válido
+                </div>
+            </div>
+
+            <div class="col">
+              <label>Sobrenome</label>
+              <input type="text" class="form-control " placeholder="Sobrenome">
+                <div class="invalid-feedback">
+                  Coloque Sobrenome Válido
+                </div>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="col">
+              <label>CPF</label>
+              <input type="text" class="form-control" id="CPF" placeholder="123.456.789-00">
+                <div class="invalid-feedback">
+                  CPF Obrigatório
+                </div>
+            </div>
+
+            <div class="col">
+              <label>RG</label>
+              <input type="text" class="form-control" id="RG" placeholder="123.456.789-0">
+                <div class="invalid-feedback">
+                  RG Obrigatório
+                </div>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col">
+              <label for="data">Data de Nascimento</label>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    <i class="fas fa-birthday-cake"></i>
+                  </span>
+                </div>
+                 <input type="text" class="form-control" id="datadenascimento" placeholder="DD/MM/AA">
+              </div>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="col">
+              <label for="telefone">Telefone</label>
+             <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    <i class="fas fa-phone"></i>
+                  </span>
+                </div>
+                  <input type="text" class="form-control" id="telefone" placeholder="(DD)3333-3333">
+              </div>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="col">
+              <label for="inputEmail4">Email</label>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    <i class="fas fa-at"></i>
+                  </span>
+                </div>
+                 <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+              </div>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="col">
+              <label for="senha">Senha</label>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    <i class="fas fa-key"></i>
+                  </span>
+                </div>
+                  <input type="password" class="form-control" id="password">
+              </div>
+            </div>
+            <div class="col">
+              <label for="senha">Confirme sua senha</label>
+              <input type="password" class="form-control" id="password">
+              <small>Deve ser igual a senha colocada ao lado</small>
+            </div>
+           
+              <hr class="mb-4">
+              <button class="btn btn-dark btn-lg btn-block" type="submit">Confirmar Cadastro</button>
+          </div>
+        </form>
+    </div>
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/vendor/jquery-slim.min.js"></script>
+    <script src="assets/js/vendor/popper.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="assets/js/vendor/holder.min.js"></script>
+    <script>
+      Holder.addTheme('thumb', {
+        bg: '#55595c',
+        fg: '#eceeef',
+        text: 'Thumbnail'
+      });
+    </script>
+  </body>
+</html>

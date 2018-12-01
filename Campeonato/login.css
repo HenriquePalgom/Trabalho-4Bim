@@ -1,0 +1,112 @@
+.nav-link
+{
+	color: white;
+	font-size: 20px;
+	transition: all .2s ease-in
+}
+
+.nav-link:hover 
+{
+	transform: scale(1.2,1.2);
+	transition: all .2s ease-out
+}
+
+.login
+{
+	text-decoration: none
+}
+
+
+#info 
+{
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	margin-left: 500px;
+	transition: all .2s ease-in;
+}
+
+
+#info:hover
+{
+	transform: scale(1.2,1.2);
+	transition: all .2s ease-out
+}
+
+#info2
+{
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	margin-left: 100px;
+}
+
+#info3
+{
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	margin-left: 100px;
+	transition: all .2s ease-in
+}
+
+
+#info3:hover
+{
+	transform: scale(1.2,1.2);
+	transition: all .2s ease-out
+}
+
+#info4
+{
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	margin-left: 100px;
+}
+
+#info5
+{
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	margin-left: 100px;
+	transition: all .2s ease-in
+}
+
+
+#info5:hover
+{
+	transform: scale(1.2,1.2);
+	transition: all .2s ease-out
+}
+
+#blog-footer 
+{
+    padding: 2.5rem 0;
+    color: #fff;
+    text-align: center;
+    background-color: black;
+    border-top: .05rem solid #e5e5e5;
+    margin-top: 500px;
+    font-size: 12px;
+}
+
+.pp a
+{
+	color: white
+}
+
+.pp1
+{
+	text-decoration: none;
+	transition: all .2s ease-in
+}
+
+.pp1:hover
+{
+	transform: scale(1.2,1.2);
+	transition: all .2s ease-out;
+}
+
+
